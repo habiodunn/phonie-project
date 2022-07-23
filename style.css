@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap');
+	  *{
+		  margin: 0;
+		  padding: 0;
+		  box-sizing: border-box;
+      font-family: 'Ibarra Real Nova', serif;
+	  }
+
+body {
+  display: grid;
+  place-items: center;
+  background: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+  background: #6a4e58;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 30px;
+  margin-top: 100px;
+}
+
+.container h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #edf2e8;
+}
+.container .display{
+  display: flex;
+  flex-direction: row;
+  
+}
+.container input {
+  text-align: center;
+  /*display: flex;*/
+  /*flex-direction: row;*/
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px solid #b3b9ac;
+  border-radius: 10px;
+}
+.image {
+  width: 30px;
+  height: 30px;
+  background: grey;
+  margin-left: -40px;
+  margin-top: 4.5px;
+  display: none;
+}
+
+/*.container button {
+  padding: 10px 10px;
+  background: #f0f0f0;
+  border-radius: 10px;
+  border: none;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  cursor: pointer;
+  color: #6a4e58;
+}
+
+.container button:hover {
+  color: #f0f0f0;
+  background:  #6a4e58;
+  border: 1px solid #f0f0f0;*/
